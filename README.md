@@ -1,6 +1,6 @@
 # Kickstarting with Excel
 ## Overview of Project
-Here, we will be visualizing the relationship between outcomes for fundraising campaigns for plays on Kickstarter and campaign launch date. We will also be visualizing the relationship between campaign outcome and campaign goals. Lastly, we will discuss the challenges faced when performing such analyses and the limitations of conclusions drawn.
+Here, we will be visualizing the relationship between outcomes for fundraising campaigns for plays on Kickstarter and campaign launch date as well between campaign outcome and campaign goals. We will provide an overview of the analysis method used and any challenges faced. Lastly, we will discuss the conclusions that can be drawn from the analysis and its limitations.
 ### Purpose
 The purpose of this project is to provide an analysis of fundraising campaigns for plays on Kickstarter and determine the relationship between campaign outcome and campaign launch date and funding goals, if any.
 ## Analysis and Challenges
