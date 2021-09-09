@@ -30,6 +30,25 @@ To examine the relationship between campaign outcome and launch date, we:
     ![README-Report_Parent-Category-filter_successful-sort_PivotChart-2.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_Parent-Category-filter_successful-sort_PivotChart-2.PNG)
 
 ### Analysis of Outcomes Based on Goals
+To examine the relationship between campaign outcome and campaign goal, we:
+1. Created a new worksheet and labeled it "Outcomes Based on Goals". We added in the following columns and dollar-amount ranges for the goals.
+
+      ![README-Report_column-row-labels.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_column-row-labels.PNG)
+
+2. To populate the "Number Succesful", "Number Failed", and "Number Canceled" column, we used the COUNTIFS() function to filter out the "Subcategory" column from the "Kickstarter" worksheet for "plays", the "goal" column from the "Kickstarter" worksheet for the corresponding dollar-amount for that row, and the "outcomes" column from the "Kickstarter" worksheet for the corresponding outcome of interest.
+
+      ![README-Report_COUNTIFS-1.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_COUNTIFS-1.PNG)
+
+      For more efficent code writing, we used the LEFT() and RIGHT() functions to extract the lower and upper limit for the goal range.
+      
+      ![README-Report_COUNTIFS-2.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_COUNTIFS-2.PNG)
+
+3. To populate the "Total Projects" column, the SUM() function was used to determine the sum of successful, failed, and canceled projects for each row.
+4. To populate the "Percentage Successful", "Percentage Failed", and "Percentage Canceled" columns, the respective number of outcomes was divided by the number of total projects and the cell type was changed from "General" to "Percentage".
+5. Lastly, a line chart was generated using the data and labeled "Outcomes Based on Goal".
+
+      ![README-Report_sum_percentage_line-chart.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_sum_percentage_line-chart.PNG)
+
 ### Challenges and Difficulties Encountered
 ## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
