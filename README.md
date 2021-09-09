@@ -27,7 +27,7 @@ To examine the relationship between campaign outcome and launch date, we:
 6. The campaign outcomes were reorganized so that "successful" outcomes appeared first. 
 7. Lastly, a line chart was created from the PivotTable and formatted and titled "Theater Outcomes Based on Launch Date".
 
-    ![README-Report_Parent-Category-filter_successful-sort_PivotChart.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_Parent-Category-filter_successful-sort_PivotChart.PNG)
+    ![README-Report_Parent-Category-filter_successful-sort_PivotChart-2.PNG](https://github.com/lexyzhong/kickstarter-analysis/blob/main/resources/README-report_resources/README-Report_Parent-Category-filter_successful-sort_PivotChart-2.PNG)
 
 ### Analysis of Outcomes Based on Goals
 ### Challenges and Difficulties Encountered
