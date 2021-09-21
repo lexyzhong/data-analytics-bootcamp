@@ -56,8 +56,10 @@ To examine the relationship between campaign outcome and campaign goal, we:
 3. **Analysis of Outcomes Based on Goals, Step 4:** check to ensure that the conversion to percentage via changing the cell type was performed correctly (e.g. 0.24 is changed to 24%, not 0.24%). 
 
 ## Results
-From the analysis of outcomes based on launch date, it appears that campigns launched  
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-- What can you conclude about the Outcomes based on Goals?
-- What are some limitations of this dataset?
-- What are some other possible tables and/or graphs that we could create?
+The analysis of campaign outcomes based on launch date revealed that May had the highest number of successful campaigns and December had the least number of successful campaigns. The number of failed and cancelled campaigns remained relatively comparable across all months of the year. This suggests that Lousie should ideally try to launch her theater campaign in May for the greatest chance at success.
+
+The analysis of campaign outcomes based on goals revealed campaigns that had goals less than $20,000 and between $35,000 and $44,999 were sucessful whereas those that had goals between $20,000 and $35,000 and $45,0000 or greater failed. Based on this data, Louise should set her campaign goal <$20,000 or from $35,000-$44,999.
+
+However, please note that these conclusions are drawn from a dataset collected between the years 2014-2016. Changes over time, such as in global economy and market trends (e.g. public interest in the performing arts) can affect the applicability of the conclusions drawn from this analysis to future campaigns. Additional analyses on larger and more recent datasets is recommended to improve the confidence in and relevancy of factors identified as being associated with campaign outcomes in order to make more accurate predictions.
+
+Additional analyses on the currect dataset can also be performed to improve the accuracy of the predictions. For example, a graph of campaign outcome based on campaign length (the total amount of time that elapsed between the launch date and deadline) or a graph of campaign outcome based on goals and subcategory classification may be helpful.
