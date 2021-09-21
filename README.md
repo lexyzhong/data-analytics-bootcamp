@@ -56,6 +56,7 @@ To examine the relationship between campaign outcome and campaign goal, we:
 3. **Analysis of Outcomes Based on Goals, Step 4:** check to ensure that the conversion to percentage via changing the cell type was performed correctly (e.g. 0.24 is changed to 24%, not 0.24%). 
 
 ## Results
+From the analysis of outcomes based on launch date, it appears that campigns launched  
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 - What can you conclude about the Outcomes based on Goals?
 - What are some limitations of this dataset?
